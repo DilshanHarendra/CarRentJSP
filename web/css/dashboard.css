@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+li{
+	padding-right: 10px;
+}
+
+body{
+		background-image: url(../images/Savin-NY-Website-Background-Web.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	
+	
+	.sidenav { margin-bottom: 10px; 
+		padding: 10px; 
+		border-bottom: 2px solid #eee; 
+		background: #61C6E0;
+		height: 100%;
+	}
+	.limenu{
+		text-decoration: none;
+		font-weight: 500;
+		font-size: 25px;
+		
+		
+	}
+	.limenu:hover{
+		color: black;
+		
+	}
+	.ul{
+		
+	}
+
+	.box{
+		width: 250px;
+		
+	}
+
+
+ a.active { color: red;  }
+
+.table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.table td, .table th {
+  border: 1px solid #222222;
+ 
+  padding: 8px;
+}
+
+.table tr:nth-child(even){background-color: #f2f2f2;}
+
+.table tr:hover {background-color: #ddd;}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+  
+}
+
+div.loading { text-align: center; display: flex; }
+@media only screen and (max-width: 770px) {
+  
+	.box{
+		width: 100%;
+		
+	}
+		
+}
+	@media only screen and (max-width: 576px) {
+  
+		.form-control{
+			width: 55%;
+		}
+		
+}

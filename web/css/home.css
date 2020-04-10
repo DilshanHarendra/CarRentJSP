@@ -1,0 +1,213 @@
+
+
+@charset "utf-8";
+/* CSS Document */
+
+.topimage{
+		position: relative;
+		width: 100%;
+		height: 650px;
+		/*background-image: url(../images/bg5.jpg);*/
+		background-repeat:round;
+	}	
+	
+	.menubutton{
+		width:30px;
+		
+	}
+	li.nav-item{
+		padding-right: 15px;
+		color: white;
+	}
+	.item{
+		color: white;
+		
+		font-size: 20px;
+	}
+	.searchbar{
+			height: 40px;
+		border-radius: 5px;
+		background-color:  transparent;
+		font-color: white;
+		}
+	
+	
+	.active{
+		color: blue;
+	}
+	
+
+
+body {
+ 
+  background:#eee;
+}
+
+.wrapper {
+  position: relative;
+  top: 10%;
+  left: 20%;
+  width: 300px;
+  height: 500px;
+ 
+}
+
+.card {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  transition: .5s all ease;
+  transform: rotateX(60deg) scale(0.7);
+
+  box-shadow: 0px 20px 50px #555;
+  animation: entry 1s linear 1;
+	z-index: 300;
+  box-shadow: 0px 20px 100px #555;
+	font-family: 'Raleway', sans-serif;
+}
+
+#c0 {
+ 
+  background: linear-gradient(to bottom, #eba65b 30%, #d99267 100%);
+  
+}
+#c1 {
+ 
+    background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
+  
+}
+	
+
+
+.card:hover {
+  cursor: pointer;
+  transform: rotate(0deg) scale(1) translateY(10px);
+  transition: .5s all ease;
+  z-index: 400;
+}
+
+
+	.chead1{
+		
+		letter-spacing: 2px;
+		padding-top: 20px;
+		color: white;
+			
+	}
+.chead3{
+		
+		letter-spacing: 2px;
+		padding-top: 20px;
+		color: white;
+			
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes simple {
+  50% {
+    transform: translateX(10px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+}
+
+@keyframes simple1 {
+  50% {
+    transform: translateX(-10px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(-10px);
+    opacity: 0;
+  }
+}
+
+@keyframes entry {
+  0% {
+    top: -20%;
+    opacity: 0.1;
+  }
+  100% {
+    top: 0%;
+  }
+}
+	
+	.topic{
+	
+		letter-spacing: 2px;
+		top: 25px; 
+		position: relative; 
+		color: white;
+	}
+	.para{
+		letter-spacing: 2px;
+		padding-left: 15px;
+		padding-right: 15px;
+		color: white;
+	}
+	
+	.details{
+		border: 1px solid #000000;
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-left: 15px;
+		width: 100%;
+		height: 500px;
+		font-size: 20px;
+		background-color: rgba(255,255,255,0.5);
+                bottom: 20px;
+		
+	}
+
+	
+	.details:hover{
+		color: white;
+               
+	}
+	.detailimg{
+		width: 82%;
+		height: 200px;;
+		position: absolute;
+	}.collap{
+			margin-top: 100px;
+		}
+
+	@media only screen and (max-width: 576px) {
+  
+		.form-control{
+			width: 55%;
+		}
+		.topimage{
+		height: 450px;
+		
+		
+	}
+		.wrapper {
+ 
+  top: 0%;
+ 
+}
+		.collap{
+			margin-top: 80px;
+		}
+		
+}
+	

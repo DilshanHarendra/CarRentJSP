@@ -1,0 +1,61 @@
+
+	
+	.form1  input[type=""],input[type="password"],input[type="text"]{
+	
+		width:150px;
+		text-align: center;
+		margin-left: 115px;
+		background-color: transparent;
+		color: white;
+		border-radius: 45px ;
+		border: 1px solid #1533E3;
+		border-color: #1533E3;
+		
+		
+	}
+	.form1  input[type=""],input[type="password"]:focus,input[type="text"]:focus{
+	
+		width:280px;
+		text-align: center;
+		margin-left: 55px;
+		background-color: transparent;
+		border: 2px solid;
+		border-radius: 45px ;
+		border-color: #04F009;
+                color: white;
+                position: relative;
+		
+		
+	}
+	
+	.form{
+		width: 400px;
+		margin-left:10%; 
+		height:auto;
+		background-color: rgba(0,0,0,0.7);
+		position: absolute;
+		padding: 10px;
+		padding-bottom: 50px;
+		text-align: center;
+		position: absolute;
+                padding-top: 30px;
+		
+		
+	}
+	label{
+		color: white;
+		padding-top: 20px;
+		padding-bottom: 0px;
+		margin-bottom: 2px;
+		font-size: 25px;
+		letter-spacing: 2px;
+		font-weight: 700px;
+	}
+	.form1  input[type=""],input[type="password"]::placeholder,input[type="text"]::placeholder {
+  color: #dab3ff;
+}
+@media only screen and (max-width: 755px) {
+ .form{
+	 margin-left:5%; 
+}
+}
